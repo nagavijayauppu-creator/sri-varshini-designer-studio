@@ -3,6 +3,7 @@ import gallery from "../data/galleryData";
 import emailjs from "emailjs-com";
 import Carousel from "../components/Carousel";
 import services from "../data/servicesData";
+import gallery1 from "../assets/images/gallery1.jpg";
 
 
 
@@ -59,7 +60,7 @@ export default function Home() {
     {/* LEFT: IMAGE */}
     <div>
       <img
-        src="/src/assets/images/gallery1.jpg"
+        src={gallery1}
         alt="Sri Varshini Designer Studio"
         className="rounded-2xl shadow-lg w-full object-cover h-[500px]"
       />

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import gallery1 from "../assets/images/gallery1.jpg";
 
 export default function About() {
   return (
@@ -26,7 +27,7 @@ export default function About() {
           {/* IMAGE */}
           <div>
             <img
-              src="/src/assets/images/gallery1.jpg"
+              src={gallery1}
               alt="Sri Varshini Designer Studio"
               className="rounded-2xl shadow-xl w-full object-cover h-[700px]"
             />
